@@ -1,0 +1,45 @@
+
+.alinhar {
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    flex-wrap: wrap!important;
+}
+
+.ctn-playercards {
+    display: grid!important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))!important;
+    gap: 20px!important;
+    margin-top: 20px!important;
+}
+
+.ctn-playercards p {
+    text-align: center!important;
+    margin-top: 20px!important;
+}
+
+.button-container {
+    display: flex!important;
+    justify-content: center!important;
+    margin-top: 20px!important;
+}
+
+.button-container button {
+    margin: 0 10px!important;
+    padding: 10px 20px!important;
+    background-color: #007bff!important;
+    color: #fff!important;
+    border: none!important;
+    border-radius: 5px!important;
+    cursor: pointer!important;
+    transition: background-color 0.3s ease!important;
+}
+
+.button-container button:hover {
+    background-color: #0056b3!important;
+}
+
+.button-container button:disabled {
+    background-color: #6c757d!important;
+    cursor: not-allowed!important;
+}
